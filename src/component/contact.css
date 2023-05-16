@@ -1,0 +1,32 @@
+.contact__options{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+svg{
+    font-size: 20px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea{
+    width: 70vw;
+    border: transparent;
+    border-radius: 4px;
+    padding: 5px;
+}
+
+input{
+    height: 30px;
+}
+
+textarea{
+    height: 70px;
+}
