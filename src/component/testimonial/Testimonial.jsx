@@ -5,7 +5,7 @@ import sister from '../../assets/sister.jpg'
 
 export const Testimonial = () => {
 
-  function handleClick(event) {
+  function handleClicke(event) {
     const clicked = event.target;
     clicked.style.backgroundColor = 'aqua'
     const elementToHide = document.querySelector('.one');
@@ -48,7 +48,7 @@ export const Testimonial = () => {
                     </div>
                   </div>
                 </div>
-                <div className="cardd two"  onClick={handleClick}>
+                <div className="cardd two">
                   <div  className="firstPart">
                       <div className="imageContainer">
                           <img  className="img1" src={sister} alt="Enowpic" />
@@ -66,7 +66,7 @@ export const Testimonial = () => {
                 </div>
             </div>
             <div className="paggi">
-              <span className="less"  onClick={handleClick}><p  className="lessers"></p></span>
+              <span className="less"  onClick={handleClicke}><p  className="lessers"></p></span>
               <span className="greater"  onClick={handleClicked}><p className="greaters"></p></span>
             </div>
         </div>

@@ -16,7 +16,7 @@
 }
 .cardd{
   text-align: center;
-  border: 1px solid blueviolet;
+  border: 2px solid blueviolet;
   width: 430px;
   height: calc(inherit  - 50px);
   border-radius: 1rem;

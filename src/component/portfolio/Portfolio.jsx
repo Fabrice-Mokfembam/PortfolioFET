@@ -81,7 +81,7 @@ export const Portfolio = () => {
                   target="blank"
                   rel="noreferrer"
                 >
-                  Live Demo
+                  Live DeMo
                 </a>
               </div>
             </article>

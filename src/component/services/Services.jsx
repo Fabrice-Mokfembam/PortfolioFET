@@ -42,7 +42,7 @@ export const Services = () => {
       <div className="card">
       <img src={DB} alt="" />
       <div className="card-body">
-        <h5 className="card-title tutor">DATABASE DESIGN</h5>     
+        <h5 className="card-title tutor">DATABASE DESiGN</h5>     
       </div>
     </div>
       <div className="card">

@@ -37,7 +37,7 @@ const About = () => {
             <p>
               I am a young software engineering student at the Faculty of
               Engineering and Technology(FET) of the University of Buea . I look forward
-              my B.eng in 2025. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Molestias nemo quae voluptatem facere, deserunt consectetur sequi magnam quam nostrum ipsum quos corporis, nihil sed quas aliquid quia, dolorem neque repudiandae..
+              my B.eng in 2025. Lorem ipsum dolor sittir, amet consectetur adipisicing elit. Molestias nemo quae voluptatem facere, deserunt consectetur sequi magnam quam nostrum ipsum quos corporis, nihil sed quas aliquid quia, dolorem neque repudiandae..
             </p>
             <a href="#contact" className="btn btn-primary">
               Let's talk
