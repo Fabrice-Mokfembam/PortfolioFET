@@ -56,8 +56,8 @@ export const Testimonial = () => {
                   </div>
                   <div className="secondPart">
                     <div className="personName">
-                      <h3>Enow  Myke-Austin</h3>
-                      <h5>Software Engineer</h5>
+                      <h3>Marriette Mokfenbam</h3>
+                      <h5>Nurse/MidWife</h5>
                     </div>
                     <div className="texts">
                           Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae quasi eum reiciendis, dolores et asperiores quis, doloremque cum laudantium obcaecati accusantium aut, dolorem mollitia perferendis.
