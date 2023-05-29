@@ -17,16 +17,18 @@ form{
 }
 
 input, textarea{
-    width: 70vw;
-    border: transparent;
+    width: 78vw;
+    border: 1px solid  var(--color-primary);
     border-radius: 4px;
     padding: 5px;
+    background: transparent;
+    color: white;
 }
 
 input{
-    height: 30px;
+    height: 50px;
 }
 
 textarea{
-    height: 70px;
+    height: 200px;
 }

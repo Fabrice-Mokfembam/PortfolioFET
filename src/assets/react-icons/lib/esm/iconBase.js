@@ -1,3 +1,6 @@
+import React from "react";
+import { IconContext, DefaultContext } from "./iconContext";
+
 var __assign = this && this.__assign || function () {
   __assign = Object.assign || function (t) {
     for (var s, i = 1, n = arguments.length; i < n; i++) {
@@ -16,8 +19,7 @@ var __rest = this && this.__rest || function (s, e) {
   }
   return t;
 };
-import React from "react";
-import { IconContext, DefaultContext } from "./iconContext";
+
 function Tree2Element(tree) {
   return tree && tree.map(function (node, i) {
     return React.createElement(node.tag, __assign({

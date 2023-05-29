@@ -1,19 +1,26 @@
 import './App.css';
 import Header from './component/header'
 //import HeaderSocial from './component/HeaderSocial'
-//import Navbar from './components/navbar/Navbar'
-//import About from './components/about/About'
-//import Experience from './components/experience/Experience'
-//import Services from './components/services/Services'
-//import Portfolio from './components/portfolio/Portfolio'
-//import Testimonial from './components/testimonial/Testimonial'
+import Navbar from './component/navbar/Navbar'
+import About from './component/about/About'
+import Experience from './component/experience/Experience'
+import Services from './component/services/Services'
+import Portfolio from './component/portfolio/Portfolio'
+import Testimonial from './component/testimonial/Testimonial'
 import Contact from './component/Contact'
-
+import Footer from './component/footer/Footer'
 function App() {
 return (
 <>
 <Header/>
+<Navbar/>
+<About/>
+<Experience/>
+<Services/>
+<Portfolio/>
+<Testimonial/>
 <Contact/>
+<Footer/>
 </>
 );
 }

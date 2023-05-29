@@ -25,6 +25,7 @@ return (
 <h2>Contact me</h2>
 <div className="container contact__container">
 <div className="contact__options">
+  
 <article className='contact__option'>
 <MdOutlineEmail className='contact__option__icon'/>
 <h4>Email</h4>
@@ -32,6 +33,7 @@ return (
 <a href='mailto:fabricemokfembam@gmail.com' target='_blank'>send a
 message</a>
 </article>
+
 <article className='contact__option'>
 <AiOutlineLinkedin className='contact__option__icon'/>
 <h4>LinkedIn</h4>
@@ -39,6 +41,7 @@ message</a>
 <a href='https://www.linkedin.com/in/brown-djomo-844b96164/'
 target='_blank'>Tape me on LinkedIn</a>
 </article>
+
 <article className='contact__option'>
 <BsWhatsapp className='contact__option__icon'/>
 <h4>Whatsapp</h4>
@@ -46,6 +49,7 @@ target='_blank'>Tape me on LinkedIn</a>
 <a href='https://web.whatsapp.com/send?phone=+237674010144'
 target='_blank'>Whatsapp me</a>
 </article>
+
 </div>
 <form ref={form} onSubmit={sendEmail}>
 <input type="text" name='name' placeholder='full name' required/>
