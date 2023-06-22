@@ -1,0 +1,26 @@
+.projects{
+    margin-top: 4rem;
+}
+.proBlock{
+  display: flex;
+  align-items: center;
+  margin-bottom: 2em;
+  gap: 4em;
+  border: 1px solid aqua;
+  height: 250px;
+}
+.imageContainerProjects{
+  width: 300px;
+  height: 250px;
+  border: 1px solid azure;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden; /* added overflow property to hide any overflowing parts */
+}
+.proBlock .imageContainerProjects img{
+  width: 100%;
+  height: 100%; /* set the height to 100% to fill the container vertically */
+  object-fit: fit; /* ensures that the image fully fits within the container */
+  object-position: bottom;
+}
