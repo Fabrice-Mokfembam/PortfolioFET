@@ -1,9 +1,13 @@
 .contact__options{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 40px;
     flex-wrap: wrap;
     text-align: center;
+}
+.marg{
+    margin-left: -100px;
 }
 
 svg{

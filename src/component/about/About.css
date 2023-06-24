@@ -66,6 +66,13 @@
 .about__me__content p{
   margin: 2rem 0 2.6rem;
   color: var(--color-light);
+  
+  font-family: inherit;
+  font-size: inherit;
+  font-weight: inherit;
+  line-height: inherit;
+  color: inherit;
+
 }
 
 

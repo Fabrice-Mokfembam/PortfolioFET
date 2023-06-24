@@ -2,7 +2,7 @@ import React, { useState, useEffect } from 'react';
 import './header.css';
 import './CTA';
 import CTA from './CTA';
-import me from '../assets/hack.jpg';
+import me from '../assets/hack.png';
 import HeaderSocial from './HeaderSocial';
 import { motion } from 'framer-motion';
 

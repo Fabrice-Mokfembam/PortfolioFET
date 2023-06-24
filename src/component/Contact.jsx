@@ -34,14 +34,14 @@ const Contact = () => {
             <h5>fabricemokfembam@gmail.com</h5>
             <a href='mailto:fabricemokfembam@gmail.com' target='_blank'>send a message</a>
           </article>
-          <article className='contact__option'>
-            <AiOutlineLinkedin className='contact__option__icon'/>
+          <article className='contact__option marg'>
+            <AiOutlineLinkedin className='contact__option__icon '/>
             <h4>LinkedIn</h4>
             <h5>Profile</h5>
             <a href='https://www.linkedin.com/in/brown-djomo-844b96164/' target='_blank'>Tape me on LinkedIn</a>
           </article>
-          <article className='contact__option'>
-            <BsWhatsapp className='contact__option__icon'/>
+          <article className='contact__option marg'>
+            <BsWhatsapp className='contact__option__icon '/>
             <h4>Whatsapp</h4>
             <h5>Direct message</h5>
             <a href='https://web.whatsapp.com/send?phone=+237674010144' target='_blank'>Whatsapp me</a>

@@ -135,6 +135,7 @@ header{
     .my_image img{
         margin: 0px;
         height: 450px;
+        width: 350px;
     }
     .scroll__down{
     position: absolute;

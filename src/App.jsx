@@ -10,14 +10,19 @@ import Projects from './component/projects/Projects'
 import Testimonial from './component/testimonial/Testimonial'
 import Contact from './component/Contact'
 import Footer from './component/footer/Footer'
+import Line from './component/lineAnimate/line'
 function App() {
 return (
 <>
 <Header/>
+<Line/>
 <Navbar/>
 <About/>
+<Line/>
 <Experience/>
+<Line/>
 <Services/>
+<Line/>
 <Portfolio/>
 <Projects/>
 <Testimonial/>
