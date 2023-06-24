@@ -45,7 +45,7 @@ App.post('/api/contact', (req, res) => {
     email: req.body.email,
     message: req.body.message,
   };
-    summitmodel.insertMany(formData);
+   // summitmodel.insertMany(formData);
 
     console.log(formData);
     res.sendStatus(200);

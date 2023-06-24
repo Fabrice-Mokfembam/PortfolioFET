@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useRef } from 'react';
 import './About.css';
-import Brother from '../../assets/Rodrique.jpg';
+import Brother from '../../assets/hack.png';
 import { FaAward } from 'react-icons/fa';
 import { FiUsers } from 'react-icons/fi';
 import { VscFolderLibrary } from 'react-icons/vsc';
@@ -60,8 +60,8 @@ const About = () => {
               <small>2 Completed</small>
             </article>
           </div>
-          <p className='so'>
-            {typedText}
+          <p className='so' >
+            I am a young software engineering student at the Faculty of Engineering and Technology (FET) of the University of Buea. I look forward to my B.Eng in 2022. 
           </p>
           <a href='#contact' className='btn btn-primary'>
             Let's talk
